@@ -1,0 +1,338 @@
+[
+    {
+        "floorLeft": [
+            {
+                "img": "https://static.jianke.com/home/images/20180122/20180122110928_881.png",
+                "title": [
+                    "呼吸专题",
+                    "胃病用药",
+                    "雷诺考特",
+                    "杜密克"
+                ],
+                "smallImg": [
+                    "https://static.jianke.com/home/images/20161120/20161120153534_093.jpg",
+                    "https://static.jianke.com/home/images/20161120/20161120153535_334.jpg",
+                    "https://static.jianke.com/home/images/20161120/20161120153537_420.jpg",
+                    "https://static.jianke.com/home/images/20161120/20161120153539_237.jpg"
+                ]
+            }
+        ],
+        "floorRight": {
+            "bigImg": "https://static.jianke.com/home/images/20180321/20180321103924_555.png",
+            "h3": "舒利迭",
+            "p": "摆脱哮喘 轻松生活"
+        },
+        "rightBox": [
+            {
+                "title": "小麦纤维素颗粒(非比麸)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201798174349389!300X300.jpg"
+            },
+            {
+                "title": "艾司奥美拉唑镁肠溶片(曾用名:埃索美拉唑镁肠溶片)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/2017915175237482!300X300.jpg"
+            },
+            {
+                "title": "丹参酮胶囊(希力)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/2017926115058375!300X300.jpg"
+            },
+            {
+                "title": "感冒灵颗粒(999)",
+                "img": "https://img.jianke.com/suo/mall/product/201903/4a63eb9a823a4098a8bbea199d7731b4!300X300.jpg"
+            }
+        ],
+        "rightLast": [
+            {
+                "title": "吸入用布地奈德混悬液(普米克令舒)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201798175911584!300X300.jpg"
+            },
+            {
+                "title": "百令胶囊(百令)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/20179518235682!300X300.jpg"
+            },
+            {
+                "title": "布地奈德福莫特罗粉吸入剂(信必可都保)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201794211020233!300X300.jpg"
+            }
+        ]
+    },
+    {
+        "floorLeft": [
+            {
+                "img": "https://static.jianke.com/home/images/20180122/20180122111010_932.png",
+                "title": [
+                    "糖尿病专题",
+                    "牛皮癣专题",
+                    "精神分裂",
+                    "畅配专题"
+                ],
+                "smallImg": [
+                    "https://static.jianke.com/home/images/20171113/20171113161532_317.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113161537_367.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113161541_959.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113161545_729.jpg"
+                ]
+            }
+        ],
+        "floorRight": {
+            "bigImg": "https://static.jianke.com/home/images/20180321/20180321104023_179.png",
+            "h3": "片仔癀",
+            "p": "用于热毒血瘀所致急慢性病毒性肝炎"
+        },
+        "rightBox": [
+            {
+                "title": "卡泊三醇软膏(达力士)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201791318251936!300X300.jpg"
+            },
+            {
+                "title": "非那雄胺片(保法止)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/2017920185214897!300X300.jpg"
+            },
+            {
+                "title": "恩替卡韦分散片(润众)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/2017926114742307!300X300.jpg"
+            },
+            {
+                "title": "拉莫三嗪片(利必通)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201792611508206!300X300.jpg"
+            }
+        ],
+        "rightLast": [
+            {
+                "title": "排毒养颜胶囊(盘龙云海)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201706/2017630143238523!300X300.jpg"
+            },
+            {
+                "title": "恩替卡韦分散片(雷易得)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/20179219411621!300X300.jpg"
+            },
+            {
+                "title": "盐酸普拉克索片(森福罗)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201791117368636!300X300.jpg"
+            }
+        ]
+    },
+    {
+        "floorLeft": [
+            {
+                "img": "https://static.jianke.com/home/images/20190419/20190419100927_581.png",
+                "title": [
+                    "前列腺专题",
+                    "优生优育",
+                    "希爱力",
+                    "益肾壮阳膏"
+                ],
+                "smallImg": [
+                    "https://static.jianke.com/home/images/20171113/20171113162543_322.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113162547_523.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113162551_225.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113162554_025.jpg"
+                ]
+            }
+        ],
+        "floorRight": {
+            "bigImg": "https://static.jianke.com/home/images/20190419/20190419120322_918.png",
+            "h3": "希爱力",
+            "p": "进口品质 长效自燃"
+        },
+        "rightBox": [
+            {
+                "title": "枸橼酸西地那非片(金戈)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201812/201812716737835!300X300.jpg"
+            },
+            {
+                "title": "枸橼酸西地那非片(万艾可)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201811/2018115111820399!300X300.jpg"
+            },
+            {
+                "title": "盐酸达泊西汀片(必利劲)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201810/20181023105945992!300X300.jpg"
+            },
+            {
+                "title": "赠维C】金水宝金水宝胶囊 72粒装",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201811/20181112114254691!300X300.jpg"
+            }
+        ],
+        "rightLast": [
+            {
+                "title": "肾宝片(汇仁)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201710/2017101617544160!300X300.jpg"
+            },
+            {
+                "title": "引阳索胶囊(育林)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201710/20171011113310920!300X300.jpg"
+            },
+            {
+                "title": "龟龄集(远)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201791217131253!300X300.jpg"
+            }
+        ]
+    },
+    {
+        "floorLeft": [
+            {
+                "img": "https://static.jianke.com/home/images/20180122/20180122111052_060.png",
+                "title": [
+                    "安宫牛黄丸",
+                    "金纳多",
+                    "云南白药",
+                    "唯依能"
+                ],
+                "smallImg": [
+                    "https://static.jianke.com/home/images/20171113/20171113162749_867.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113162755_162.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113162757_320.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113162800_512.jpg"
+                ]
+            }
+        ],
+        "floorRight": {
+            "bigImg": "https://static.jianke.com/home/images/20180419/20180419205317_138.jpg",
+            "h3": "香丹清",
+            "p": "润肠通便 祛黄褐斑"
+        },
+        "rightBox": [
+            {
+                "title": "安宫牛黄丸(同仁堂)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201707/2017719155718669!300X300.jpg"
+            },
+            {
+                "title": "托伐普坦片(苏麦卡)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201711/201711385852859!300X300.jpg"
+            },
+            {
+                "title": "磷酸西格列汀片(捷诺维)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/2017912171126960!300X300.jpg"
+            },
+            {
+                "title": "达格列净片(安达唐)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/201791593739257!300X300.jpg"
+            }
+        ],
+        "rightLast": [
+            {
+                "title": "双参龙胶囊(格拉丹东)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201711/2017119154229721!300X300.jpg"
+            },
+            {
+                "title": "维D钙咀嚼片(迪巧)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201709/20179518618396!300X300.jpg"
+            },
+            {
+                "title": "塞来昔布胶囊(西乐葆)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201710/2017102618227488!300X300.jpg"
+            }
+        ]
+    },
+    {
+        "floorLeft": [
+            {
+                "img": "https://static.jianke.com/home/images/20180925/20180925171138_911.jpg",
+                "title": [
+                    "羊胎盘",
+                    "碧生源常润茶",
+                    "余仁生",
+                    "中药饮片"
+                ],
+                "smallImg": [
+                    "https://static.jianke.com/home/images/20171228/20171228145204_238.jpg",
+                    "https://static.jianke.com/home/images/20181106/20181106174307_083.jpg",
+                    "https://static.jianke.com/home/images/20180925/20180925164921_644.jpg",
+                    "https://static.jianke.com/home/images/20180925/20180925170536_369.jpg"
+                ]
+            }
+        ],
+        "floorRight": {
+            "bigImg": "https://static.jianke.com/home/images/20180925/20180925164411_940.jpg",
+            "h3": "汤臣倍健蛋白粉",
+            "p": "抵抗力 守护你"
+        },
+        "rightBox": [
+            {
+                "title": "同仁堂牌破壁灵芝孢子粉胶囊",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201805/2018517173616430!300X300.jpg"
+            },
+            {
+                "title": "NC澳洲护肝片",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201807/201872615039564!300X300.jpg"
+            },
+            {
+                "title": "中智草晶华天麻破壁草本",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201604/201641312154554!300X300.jpg"
+            },
+            {
+                "title": "健安喜浓缩加强鱼油软胶囊(120粒)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201809/2018917163742113!300X300.jpg"
+            }
+        ],
+        "rightLast": [
+            {
+                "title": "Swisse 葡萄籽精华片",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201808/201881171743821!300X300.jpg"
+            },
+            {
+                "title": "NC姜黄素胶囊(特强型)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201807/2018726143150632!300X300.jpg"
+            },
+            {
+                "title": "健力多R氨糖软骨素钙片",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201712/201712418319200!300X300.jpg"
+            }
+        ]
+    },
+    {
+        "floorLeft": [
+            {
+                "img": "https://static.jianke.com/home/images/20180319/20180319091806_750.jpg",
+                "title": [
+                    "血压计",
+                    "鼻腔护理喷雾",
+                    "治疗仪",
+                    "雾化器"
+                ],
+                "smallImg": [
+                    "https://static.jianke.com/home/images/20171113/20171113165211_204.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113165214_893.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113165219_280.jpg",
+                    "https://static.jianke.com/home/images/20171113/20171113165222_827.jpg"
+                ]
+            }
+        ],
+        "floorRight": {
+            "bigImg": "https://static.jianke.com/home/images/20180321/20180321104350_095.png",
+            "h3": "雅培血糖仪",
+            "p": "雅培瞬感扫描式葡萄糖监测系统"
+        },
+        "rightBox": [
+            {
+                "title": "稳豪型血糖试纸50片",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201702/20172289502257!300X300.jpg"
+            },
+            {
+                "title": "鱼跃403C压缩空气式雾化器",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201703/2017321143346638!300X300.jpg"
+            },
+            {
+                "title": "欧姆龙电子血压计HEM-8102A(上臂式)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201702/20172817337121!300X300.jpg"
+            },
+            {
+                "title": "全日康J18B型电脑中频治疗仪（普通款）",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201803/20183216305995!300X300.jpg"
+            }
+        ],
+        "rightLast": [
+            {
+                "title": "仙鹤-神灯(TDP特定电磁波治疗仪)(CQ-29P型)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201702/201722495923683!300X300.jpg"
+            },
+            {
+                "title": "诺斯清生理性海水鼻腔护理喷雾器",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201702/2017224104118134!300X300.jpg"
+            },
+            {
+                "title": "欧姆龙电子血压计HEM-7207语音播报(上臂式)",
+                "img": "https://img.jianke.com/suo/upload/prodimage/201702/20172716329449!300X300.jpg"
+            }
+        ]
+    }
+]
