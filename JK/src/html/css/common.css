@@ -37,7 +37,7 @@ i,em{font-style: normal;}
 
 
 
-.jkn_head_top,.jkn_head_t_r li.site_nav,.jkn_head_t_r li.shopping_cart,.shopping_xx li,.jkn_head_t_r li.my_jianke,.jkn_sear_boxdiv,.logistics_query,.jkn_navigation,.jkn_nav_r,.jk_yhs,.jnk_allsort,.jnk_allsort .item,.jnk_a_dl,.jnk_allsort .item_mc .category,.jkn_service li .div_p2,.jkn_foot_img{position:relative;}
+.jkn_head_top,.jkn_head_t_r li.site_nav,.jkn_head_t_r li.shopping_cart,.shopping_xx li,.jkn_head_t_r li.my_jianke,.jkn_sear_boxdiv,.logistics_query,.jkn_nav_r,.jk_yhs,.jnk_a_dl,.jnk_allsort .item_mc .category,.jkn_service li .div_p2,.jkn_foot_img{position:relative;}
 
 
 
@@ -388,7 +388,7 @@ li.logistics_active .jk_log_query{display:block;}
 
 /*nav*/
 
-.jkn_navigation{height:40px;line-height:40px;color:#fff;z-index: 999;}
+.jkn_navigation{height:40px;line-height:40px;color:#fff;z-index: 999;position: relative;}
 
 .jkn_nav_l{width:200px;color:#fff;background:#0691F9; z-index:999999;margin-right: 15px;}
 
@@ -408,7 +408,15 @@ li.logistics_active .jk_log_query{display:block;}
 
 .jnk_allsort .mt{height:40px;width:178px;z-index:9999;font-size: 16px;padding-left:22px;line-height: 41px;_line-height:39px;}
 
-.jnk_allsort .mc{top: 40px;display:none;width:199px;/*background: rgba(0,0,0,0.9) !important;background: #000;filter: alpha(opacity=90);_*/ height: 508px; z-index:9999;padding: 2px 0 0 1px;}
+.jnk_allsort .mc{
+    top: 40px;
+    display:none;
+    width:199px;
+    /*background: rgba(0,0,0,0.9) !important;background: #000;filter: alpha(opacity=90);_*/ 
+    height: 508px;
+     z-index:9999;
+     padding: 2px 0 0 1px;
+    }
 
 .jnk_allsort .mt em{width:10px; height:6px; display:block; position:absolute; top:18px; right:28px;}
 
@@ -418,7 +426,7 @@ li.logistics_active .jk_log_query{display:block;}
 
 .jnk_allsorthover .mc{display:block;}
 
-.jnk_a_dl{width:173px;height:28px;z-index:1000;line-height:28px;padding-left:20px;overflow: hidden;}
+.jnk_a_dl{width:173px;height:27px;z-index:1000;line-height:28px;padding-left:20px;overflow: hidden;position: relative;}
 
 .jnk_a_dl dt{margin-right:13px;_display: inline}
 
@@ -478,7 +486,19 @@ li.logistics_active .jk_log_query{display:block;}
 
 .jnk_allsort .fore19{top:-479px;}
 
-.jnk_allsort .item_mc{border:solid 1px #cacaca;border-left:none;width:569px; padding: 20px 0 0 30px;left:199px;z-index:900;display:none;*overflow:hidden;background:#fff;clear:both; height:488px;}
+.jnk_allsort .item_mc{
+    position: absolute;
+    border:solid 1px #cacaca;
+    border-left:none;
+    width:569px; 
+    padding: 20px 0 0 30px;
+    left:199px;
+    z-index:900;
+    display:none;
+    background:#fff;
+    clear:both;
+     height:488px;
+    }
 
 .jnk_allsort .item_mc .category{width:539px;}
 

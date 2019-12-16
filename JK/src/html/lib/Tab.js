@@ -8,46 +8,19 @@ class Tab {
     }
     init() {
         this.renderUI();
+        this.addMouseEvent();
     }
     renderUI() {
-        // <div class="mc">
-        //     <div class="item">
-        //         <dl class="jnk_a_dl  jk_first ">
-        //             <dt style="margin-left: 0px;"><a href="//www.jianke.com/list-0111.html" target="_blank" title="男科用药">男科用药</a>
-        //             </dt>
-        //             <dd><a href="https://www.jianke.com/Category/5411.html" target="_blank" title="阳痿早泄">阳痿早泄</a>
-        //             </dd>
-        //         </dl>
-        //         <div class="item_mc fore1">
-        //             <div class="category">
-        //                 <dl class="jk_detailed">
-        //                     <dt><a href="//www.jianke.com/list-0111.html" target="_blank" title="男科用药">男科用药</a>
-        //                     </dt>
-        //                     <dd><a href="https://www.jianke.com/Category/3767.html" target="_blank" title="阳痿早泄">阳痿早泄</a>
-        //                     </dd>
-        //                 </dl>
-        //                 <dl class="recommended">
-        //                     <dt>推荐产品</dt>
-        //                     <dd><a href="//www.jianke.com/product/220793.html" target="_blank" title="盐酸达泊西汀片(必利劲)">盐酸达泊西汀片(必利劲)</a>
-        //                     </dd>
-        //                 </dl>
-        //             </div>
-        //             <dl class="r_brand">
-        //                 <dt>推荐品牌</dt>
-        //             </dl>
-        //             <a href="https://www.jianke.com/product/514235.html" target="_blank" title=""><img class="larger_version" src="//static.jianke.com/home/images/20180627/20180627144241_341.jpg" alt="" original="//static.jianke.com/home/images/20180627/20180627144241_341.jpg"></a>
-        //         </div>
-
-        //     </div>
-        // </div>
         this.silderBox=$('<div class="mc"></div>');
         $(".jnk_allsort").append(this.silderBox);
         let html=this.data.map((item,index)=>{
-            /* let right=item.rightContent.map((ele)=>{
+            let right=item.rightContent.map((ele)=>{
                 let top=ele.titleLi.map((ele)=>{
-                    let dd=`
-                    <dd><a href="">${ele.listA}</a></dd>
-                    `
+                    let dd=ele.listA.map((ele)=>{
+                        return`
+                        <dd><a href="">${ele}</a></dd>
+                        `
+                    }).join("");
                     return`
                     <dl class="jk_detailed">
                         <dt><a href="">${ele.fTitle}</a></dt>
@@ -55,22 +28,26 @@ class Tab {
                     </dl>
                     `
                 }).join("");
-                console.log(top)
+                // console.log(top)
                 let middle=ele.titleLiB.map((ele)=>{
+                    let dd=ele.listB.map((ele)=>{
+                        return`
+                        <dd><a href="">${ele}</a></dd>
+                        `
+                    }).join("");
                     return`
                     <dl class="recommended">
-                        <dt>推荐产品</dt>
-                        <dd><a href="">盐酸达泊西汀片(必利劲)</a>
-                        </dd>
+                        <dt>${ele.sTitle}</dt>
+                        ${dd}
                     </dl>
                     `
                 }).join("");
                 let bottom=ele.titleLiC.map((ele)=>{
                     return`
                     <dl class="r_brand">
-                        <dt>推荐品牌</dt>
+                        <dt>${ele.tTitle}</dt>
                     </dl>
-                    <a href=""><img class="larger_version" src=""></a>
+                    
                     `
                 }).join("");
                 return`
@@ -79,10 +56,12 @@ class Tab {
                     ${top}
                     ${middle}
                     ${bottom}
+                    <a href=""><img class="larger_version" src="${ele.img ==""?"":ele.img}"></a>
                     </div>
                 </div>
                 `
-            }).join(""); */
+            }).join("");
+            
             return`
             <div class="item">
             <dl class="jnk_a_dl  jk_first ">
@@ -90,53 +69,24 @@ class Tab {
                 <dd><a href="">${item.titleB}</a>
                 </dd>
             </dl>
-            
+            ${right}
+            </div>
             `
-            
         }).join("");
-        /* let right=this.data.rightContent.map((ele)=>{
-                let top=ele.titleLi.map((ele)=>{
-                    let dd=`
-                    <dd><a href="">${ele.listA}</a></dd>
-                    `
-                    return`
-                    <dl class="jk_detailed">
-                        <dt><a href="">${ele.fTitle}</a></dt>
-                        ${dd}
-                    </dl>
-                    `
-                }).join("");
-                console.log(top)
-                let middle=ele.titleLiB.map((ele)=>{
-                    return`
-                    <dl class="recommended">
-                        <dt>推荐产品</dt>
-                        <dd><a href="">盐酸达泊西汀片(必利劲)</a>
-                        </dd>
-                    </dl>
-                    `
-                }).join("");
-                let bottom=ele.titleLiC.map((ele)=>{
-                    return`
-                    <dl class="r_brand">
-                        <dt>推荐品牌</dt>
-                    </dl>
-                    <a href=""><img class="larger_version" src=""></a>
-                    `
-                }).join("");
-                return`
-                <div class="item_mc fore1">
-                    <div class="category">
-                    ${top}
-                    ${middle}
-                    ${bottom}
-                    </div>
-                </div>
-                `
-            }).join(""); */
-        // console.log(this.data[0].rightContent)
-        // ${right}
+        this.silderBox.html(html);
         // console.log(html)
         
+    }
+    addMouseEvent(){ 
+        $(".mc").on("mouseenter",".item",function(){
+            // console.log($(this).index())
+            $(this).addClass("hover").siblings().removeClass("hover");
+            
+        });
+        $(".mc").on("mouseleave",".item",function(){
+            // console.log($(this).index())
+            $(this).removeClass("hover");
+            
+        })  
     }
 }
