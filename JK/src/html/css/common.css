@@ -230,8 +230,7 @@ i,em{font-style: normal;}
 
 .jk_qjz:hover{color:#fff}
 
-.jkn_head_t_r li.shopping_cart em,.jkn_head_t_r li.mobile_version em{ width:20px; height:16px; margin-right:5px; margin-top:11px; background-position:-47px -89px;}
-
+.jkn_head_t_r li.shopping_cart em,.jkn_head_t_r li.mobile_version em{ width:20px; height:16px; margin-right:5px; margin-top:11px; background-position:-62px -97px;}
 .jkn_head_t_r li.mobile_version,.jkn_head_t_r li.shopping_cart{margin-left:11px;}
 
 .jkn_head_t_r li.mobile_version em{width:10px; background-position:-74px -89px;}
@@ -650,9 +649,17 @@ dl.jk_detailed dt{font-size:14px;}
 
 .wxtxt{width:40px;height:40px;font-size: 14px;padding:13px 10px;text-align:center;background:#ededed;line-height:18px !important}
 
-.codeshow{ text-align:center; width:320px; position:absolute; left:-200px; top:-29px; padding:15px; display:none;}
+.codeshow{
+     text-align:center; 
+     width:330px;
+     position:absolute; 
+     left:-350px; 
+     top:-29px; 
+     padding:15px; 
+     display:none;
+    }
 
-.codeshow img{ display:block; margin:0 auto; float:left}
+.codeshow img{ display:block; margin:0 auto; float:left;margin-right:4px;}
 
 .codeshow span{ display: block;width:15px; height: 60px; position: absolute;top: 0;right:-15px;}
 
@@ -660,9 +667,36 @@ dl.jk_detailed dt{font-size:14px;}
 
 .qqserver,.tc{border-top:1px solid #ddd;margin-top:1px;}
 
-.re_top a{display: block;height: 60px;width: 60px;text-indent: -999999px;overflow: hidden;background: #000;opacity: 0.5;filter: alpha(opacity=50);cursor: pointer;-moz-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;-webkit-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;-o-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;transition: opacity 0.3s ease-in,opacity 0.3s ease-out;}
+.re_top a{
+    display: block;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999px;
+    overflow: hidden;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+    -moz-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+}
 
-.re_top a em{background-position:-90px -245px;width:30px;height: 30px;margin:12px 0 0 15px}
+.re_top a em{
+    width:30px;
+    height: 30px;
+    margin:12px 0 0 15px;
+    background:url(../images/up.png) no-repeat;
+    background-size:100% 100%;
+    }
 
-.re_top a:hover{opacity: 1;filter: alpha(opacity=100);-moz-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;-webkit-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;-o-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;transition: opacity 0.3s ease-in,opacity 0.3s ease-out;}
+.re_top a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-in,opacity 0.3s ease-out;
+}
 

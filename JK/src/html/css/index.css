@@ -9,6 +9,27 @@
 .slide_right_bottom dt a em{ display: inline-block;*display: inline;*zoom:1; cursor: pointer;}
 
 .banner{ position:relative; z-index:50; width:100%; height:510px; overflow:hidden; }
+.banner ul li a img{margin:0 auto}
+.banner #pre{
+	width:45px;
+	height:100px;
+	background:url(../images/sprite1.bmp) no-repeat;
+	position:absolute;
+    top:50%;
+    left:546px;
+    margin-top:-50px;
+    opacity:0.3;
+	}
+.banner #next{
+	width:45px;
+	height:100px;
+	background:url(../images/sprite2.bmp) no-repeat;
+	position:absolute;
+    top:50%;
+    margin-top:-50px;
+	right:546px;
+    opacity:0.3;
+	}
 .banner_bg{width: 386px;height:510px;position: absolute;top: 0px;z-index: 999;overflow: hidden;}
 .banner_left{left:50%;margin-left:-991px;}
 .banner_right{right:50%;margin-right:-991px;}
@@ -225,7 +246,11 @@ li.slide_yyzd,li.slide_zys{width:99px;border-left:1px solid #eaeaea;}
 .jkn_wrap_b_r_b{margin:14px 13px 0;}
 
 /*link*/
-.jkn_wrap_b,.jkn_link{margin-top:25px;}
+.jkn_wrap_b{margin-top:25px;}
+.jkn_link{
+    width: 1210px;
+    margin:25px auto;
+}
 .jkn_link .jk_ul{border-right:1px solid #e5e5e5}
 .jkn_link li{width:180px;}
 .jk_con_links{width:1162px;height:50px;padding:20px 23px;border:1px solid #e5e5e5;border-top:none;background:#fff;overflow:hidden;}

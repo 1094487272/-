@@ -65,8 +65,8 @@ class Tab {
             return`
             <div class="item">
             <dl class="jnk_a_dl  jk_first ">
-                <dt><a href="">${item.titleA}</a></dt>
-                <dd><a href="">${item.titleB}</a>
+                <dt><a href="http://127.0.0.1:8080/-/JK/src/html/list.html#">${item.titleA}</a></dt>
+                <dd><a href="http://127.0.0.1:8080/-/JK/src/html/list.html#">${item.titleB}</a>
                 </dd>
             </dl>
             ${right}
