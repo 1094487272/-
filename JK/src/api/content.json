@@ -1,89 +1,107 @@
 [
     {
-        "bigImg": "https://static.jianke.com/home/images/20190419/20190419120258_109.png",
-        "maxTitle": "艾力达",
-        "minTitle": "德国进口 强硬真男人",
-        "bottomBox": [
+        "Title": "热卖专场",
+        "Content": [
             {
-                "smallImg": "https://static.jianke.com/home/images/20180307/20180307154420_769.jpg",
-                "titleA": "立普妥",
-                "titleB": "有效降低血液中固醇含量"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20161229/20161229100805_470.jpg",
-                "titleA": "捷诺维",
-                "titleB": "突破性降血糖-DPP-4抑制"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20190108/20190108191949_607.jpg",
-                "titleA": "韦瑞德",
-                "titleB": "抗病毒一线好药，疗效优异"
+                "bigImg": "https://static.jianke.com/home/images/20190419/20190419120258_109.png",
+                "maxTitle": "艾力达",
+                "minTitle": "德国进口 强硬真男人",
+                "bottomBox": [
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20180307/20180307154420_769.jpg",
+                        "titleA": "立普妥",
+                        "titleB": "有效降低血液中固醇含量"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20161229/20161229100805_470.jpg",
+                        "titleA": "捷诺维",
+                        "titleB": "突破性降血糖-DPP-4抑制"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20190108/20190108191949_607.jpg",
+                        "titleA": "韦瑞德",
+                        "titleB": "抗病毒一线好药，疗效优异"
+                    }
+                ]
             }
         ]
     },
     {
-        "bigImg": "https://static.jianke.com/home/images/20191025/20191025104450_019.jpg",
-        "maxTitle": "六味地黄丸",
-        "minTitle": "滋阴补肾，领券满99减10",
-        "bottomBox": [
+        
+        "Content": [
             {
-                "smallImg": "https://static.jianke.com/home/images/20171008/20171008100859_755.jpg",
-                "titleA": "泰毕全",
-                "titleB": "预防成人非瓣性房颤患者的卒中"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20170429/20170429101055_329.jpg",
-                "titleA": "短肽型肠内营养剂",
-                "titleB": "适用于胃肠道功能有损失"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20161229/20161229101055_622.jpg",
-                "titleA": "卡泊三醇搽剂(达力士",
-                "titleB": "用于头部银屑病。"
+                "bigImg": "https://static.jianke.com/home/images/20191025/20191025104450_019.jpg",
+                "maxTitle": "六味地黄丸",
+                "minTitle": "滋阴补肾，领券满99减10",
+                "bottomBox": [
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20171008/20171008100859_755.jpg",
+                        "titleA": "泰毕全",
+                        "titleB": "预防成人非瓣性房颤患者的卒中"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20170429/20170429101055_329.jpg",
+                        "titleA": "短肽型肠内营养剂",
+                        "titleB": "适用于胃肠道功能有损失"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20161229/20161229101055_622.jpg",
+                        "titleA": "卡泊三醇搽剂(达力士",
+                        "titleB": "用于头部银屑病。"
+                    }
+                ]
             }
         ]
     },
     {
-        "bigImg": "https://static.jianke.com/home/images/20180716/20180716161419_673.jpg",
-        "maxTitle": "舒尔佳",
-        "minTitle": "49粒仅需256元",
-        "bottomBox": [
+        "Content": [
             {
-                "smallImg": "https://static.jianke.com/home/images/20180307/20180307154456_727.jpg",
-                "titleA": "肠内营养粉剂(TP)",
-                "titleB": "提供全营养支持"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20190328/20190328091348_915.jpg",
-                "titleA": "汇仁肾宝",
-                "titleB": "为养家男人撑腰"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20161229/20161229101345_671.jpg",
-                "titleA": "森福罗",
-                "titleB": "帕金森病一线治疗用药"
+                "bigImg": "https://static.jianke.com/home/images/20180716/20180716161419_673.jpg",
+                "maxTitle": "舒尔佳",
+                "minTitle": "49粒仅需256元",
+                "bottomBox": [
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20180307/20180307154456_727.jpg",
+                        "titleA": "肠内营养粉剂(TP)",
+                        "titleB": "提供全营养支持"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20190328/20190328091348_915.jpg",
+                        "titleA": "汇仁肾宝",
+                        "titleB": "为养家男人撑腰"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20161229/20161229101345_671.jpg",
+                        "titleA": "森福罗",
+                        "titleB": "帕金森病一线治疗用药"
+                    }
+                ]
             }
         ]
     },
     {
-        "bigImg": "https://static.jianke.com/home/images/20190107/20190107145857_936.png",
-        "maxTitle": "韦立得（TAF）",
-        "minTitle": "乙肝新药 0耐药发生",
-        "bottomBox": [
+        "Content": [
             {
-                "smallImg": "https://static.jianke.com/home/images/20161229/20161229095048_747.jpg",
-                "titleA": "思力华",
-                "titleB": "强效控制慢阻肺"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20170814/20170814154527_821.jpg",
-                "titleA": "气血和胶囊",
-                "titleB": "活血止痛"
-            },
-            {
-                "smallImg": "https://static.jianke.com/home/images/20190425/20190425140844_778.jpg",
-                "titleA": "健臻血糖",
-                "titleB": "健臻血糖"
+                "bigImg": "https://static.jianke.com/home/images/20190107/20190107145857_936.png",
+                "maxTitle": "韦立得（TAF）",
+                "minTitle": "乙肝新药 0耐药发生",
+                "bottomBox": [
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20161229/20161229095048_747.jpg",
+                        "titleA": "思力华",
+                        "titleB": "强效控制慢阻肺"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20170814/20170814154527_821.jpg",
+                        "titleA": "气血和胶囊",
+                        "titleB": "活血止痛"
+                    },
+                    {
+                        "smallImg": "https://static.jianke.com/home/images/20190425/20190425140844_778.jpg",
+                        "titleA": "健臻血糖",
+                        "titleB": "健臻血糖"
+                    }
+                ]
             }
         ]
     }

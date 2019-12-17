@@ -20,4 +20,18 @@ $(() => {
         tab.init();
         }
     );
+    new Promise(function(resolve,reject){
+        $.getJSON("./api/content.json",function (data, textStatus, jqXHR) {
+            let content=new Content(data);
+            content.init();
+            resolve(); 
+         });
+    }).then(function(){
+        $.getJSON("./api/Floor.json",function (data, textStatus, jqXHR) {
+            let floor=new Floor(data);
+            floor.init();
+        });
+    })
+    
+    
 })

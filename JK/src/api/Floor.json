@@ -1,5 +1,6 @@
 [
     {
+        "Title":"1F 家庭常备",
         "floorLeft": [
             {
                 "img": "https://static.jianke.com/home/images/20180122/20180122110928_881.png",
@@ -17,11 +18,11 @@
                 ]
             }
         ],
-        "floorRight": {
+        "floorRight": [{
             "bigImg": "https://static.jianke.com/home/images/20180321/20180321103924_555.png",
             "h3": "舒利迭",
             "p": "摆脱哮喘 轻松生活"
-        },
+        }],
         "rightBox": [
             {
                 "title": "小麦纤维素颗粒(非比麸)",
@@ -56,6 +57,7 @@
         ]
     },
     {
+        "Title":"2F 专科用药",
         "floorLeft": [
             {
                 "img": "https://static.jianke.com/home/images/20180122/20180122111010_932.png",
@@ -73,11 +75,11 @@
                 ]
             }
         ],
-        "floorRight": {
+        "floorRight": [{
             "bigImg": "https://static.jianke.com/home/images/20180321/20180321104023_179.png",
             "h3": "片仔癀",
             "p": "用于热毒血瘀所致急慢性病毒性肝炎"
-        },
+        }],
         "rightBox": [
             {
                 "title": "卡泊三醇软膏(达力士)",
@@ -112,6 +114,7 @@
         ]
     },
     {
+        "Title":"3F 男性专区",
         "floorLeft": [
             {
                 "img": "https://static.jianke.com/home/images/20190419/20190419100927_581.png",
@@ -129,11 +132,11 @@
                 ]
             }
         ],
-        "floorRight": {
+        "floorRight": [{
             "bigImg": "https://static.jianke.com/home/images/20190419/20190419120322_918.png",
             "h3": "希爱力",
             "p": "进口品质 长效自燃"
-        },
+        }],
         "rightBox": [
             {
                 "title": "枸橼酸西地那非片(金戈)",
@@ -168,6 +171,7 @@
         ]
     },
     {
+        "Title":"4F 老年专区",
         "floorLeft": [
             {
                 "img": "https://static.jianke.com/home/images/20180122/20180122111052_060.png",
@@ -185,11 +189,11 @@
                 ]
             }
         ],
-        "floorRight": {
+        "floorRight": [{
             "bigImg": "https://static.jianke.com/home/images/20180419/20180419205317_138.jpg",
             "h3": "香丹清",
             "p": "润肠通便 祛黄褐斑"
-        },
+        }],
         "rightBox": [
             {
                 "title": "安宫牛黄丸(同仁堂)",
@@ -224,6 +228,7 @@
         ]
     },
     {
+        "Title":"5F 营养滋补",
         "floorLeft": [
             {
                 "img": "https://static.jianke.com/home/images/20180925/20180925171138_911.jpg",
@@ -241,11 +246,11 @@
                 ]
             }
         ],
-        "floorRight": {
+        "floorRight": [{
             "bigImg": "https://static.jianke.com/home/images/20180925/20180925164411_940.jpg",
             "h3": "汤臣倍健蛋白粉",
             "p": "抵抗力 守护你"
-        },
+        }],
         "rightBox": [
             {
                 "title": "同仁堂牌破壁灵芝孢子粉胶囊",
@@ -280,6 +285,7 @@
         ]
     },
     {
+        "Title":"6F 医疗器械",
         "floorLeft": [
             {
                 "img": "https://static.jianke.com/home/images/20180319/20180319091806_750.jpg",
@@ -297,11 +303,11 @@
                 ]
             }
         ],
-        "floorRight": {
+        "floorRight": [{
             "bigImg": "https://static.jianke.com/home/images/20180321/20180321104350_095.png",
             "h3": "雅培血糖仪",
             "p": "雅培瞬感扫描式葡萄糖监测系统"
-        },
+        }],
         "rightBox": [
             {
                 "title": "稳豪型血糖试纸50片",
