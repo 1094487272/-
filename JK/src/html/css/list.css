@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box {
+    width: 1300px;
+    height: 100%;
+    /* border: 1px solid #000; */
+    margin: 40px auto;
+}
+
+.box-list {
+    width: 100%;
+    height: 500px;
+}
+/* .btn-class {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #000;
+} */
+
+.btn-class span {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #000;
+    display: inline-block;
+    text-align: center;
+}
+
+.item {
+    margin: 5px;
+    width: 240px;
+    height: 350px;
+    border: 1px solid #efefef;
+    float: left;
+}
+
+.item:hover {
+    border: 1px solid red;
+}
+
+
+.item img {
+    margin-top: 2px;
+    width: 200px;
+    height: 200px;
+    margin-left:20px;
+}
+.item-box span{margin-left:20px;}
+.price-y{
+    color:red;
+    font-size:20px;
+}
+.price-z{
+    color:#ccc;
+    text-decoration:line-through;
+}
+
+.dis {
+    margin-left: 20px;
+    color: #2272c8;
+    font-size: 10px;
+    line-height:20px;
+}
+button{
+    margin-left:20px;
+    background:red;
+    outline: none;
+}
+.storeName {
+    text-align: left;
+    margin-left: 15px;
+    color: #923;
+    font-size: 18px
+}
