@@ -33,7 +33,8 @@ $(()=>{
     /* 渲染页面 */
     function renderUI(_data) {
         let html = _data.map((ele, index) => {
-            return `<li class="item">
+            return `
+            <li class="item" data-id=${ele.good_id}>
                     <div class="item-box">
                         <img src=${ele.img}>
                         <span class="price-y"><a href="">￥${ele.priceA}</a></span><span class="price-z"><a href="">￥${ele.priceB}</a></span>
@@ -46,4 +47,11 @@ $(()=>{
 
         $(".box-list").html(html);
     }
+    $(".box-list").on("click",".item",function(){
+        let oImg=$(this).children(".item-box")[0].querySelector("img").src;
+        let price=$(this).children().children(".price-y").text();
+        let dis=$(this).children(".item-box").children(".dis").text();
+        let querySting=`src=${oImg}&price=${price}&dis=${dis}`;
+        window.location.href="http://127.0.0.1:8080/-/JK/src/html/Detail-Pages.html?" + querySting;
+    })
 })

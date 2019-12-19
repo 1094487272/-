@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="./css/Moren.css">
+    <link rel="stylesheet" href="./css/fangdajing.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="../html/lib/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div class="jkn_head_top">
+            <div class="jkn_head_t">
+                    <div class="jkn_head_t_l" id="loginfo">
+                            <span class="jk_mr35">欢迎来到健客网上药店！</span>
+                            <a href="https://www.jianke.com/user/login" target="_blank" title="登录">登录</a>
+                            <a href="https://www.jianke.com/user/register" target="_blank" title="免费注册">免费注册</a>
+                    </div>
+                    <ul class="jkn_head_t_r">
+                            <li class="shopping_cart">
+                                    <p class="shopp_an"><em></em>
+                                            <a class="jk_s_on" href="https://www.jianke.com/shoppingcart/"
+                                                    title="购物车" target="_blank">购物车<span
+                                                            id="topcount"><span>0</span>件</span></a></p>
+
+                            </li>
+
+                            <li class="my_jianke">
+                                    <a href="//www.jianke.com/help/ordway.html" target="_blank"
+                                            title="客户服务">客户服务</a>
+                                    <span></span>
+                                    <ul class="myjk">
+                                            <li><a href="//www.jianke.com/help/ordway.html" target="_blank"
+                                                            title="购物指南">购物指南</a></li>
+                                            <li><a href="//www.jianke.com/help/delivery.html" target="_blank"
+                                                            title="配送方式">配送方式</a></li>
+                                            <li><a href="//www.jianke.com/help/thirdpay.html" target="_blank"
+                                                            title="支付方式">支付方式</a></li>
+                                            <li><a href="//www.jianke.com/help/returnsx.html" target="_blank"
+                                                            title="售后服务">售后服务</a></li>
+                                    </ul>
+                            </li>
+                            <li class="my_jianke">
+                                    <a href="https://www.jianke.com/user/" target="_blank" title="我的健客">我的健客</a>
+                                    <span></span>
+                                    <ul class="myjk">
+                                            <li><a href="https://www.jianke.com/user/order/mine/all" id="myorder"
+                                                            target="_blank" title="我的订单">我的订单</a>
+                                            </li>
+                                            <li><a href="https://www.jianke.com/user/account/coupon" id="mycoupon"
+                                                            target="_blank" title="我的优惠券">我的优惠券</a></li>
+                                    </ul>
+                            </li>
+                            <a href="https://www.jianke.com/help/ydfb.html" target="_blank" title="线下药店">线下药店</a>
+                    </ul>
+            </div>
+    </div>
+    <div class="jkn_head_middle clearfix">
+            <div class="jkn_head_m_l">
+                    <a href="http://127.0.0.1:8080/-/JK/src/shouye.html" title="健客网上药店"><img
+                                    src="//static.jianke.com/home/images/20181025/20181025200955_553.gif"
+                                    height="90" width="265" alt="健客网上药店LOGO" style="margin-top: -40px"
+                                    original="//static.jianke.com/home/images/20181025/20181025200955_553.gif"></a>
+                    <div class="jk_zs" style="height: 26px; overflow: hidden">
+                            <ul class="jk_zs_ul" style="margin-top: 0px;">
+                                    <li><a href="http://219.135.157.143/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1"
+                                                    target="_blank"
+                                                    title="第二类医疗器械经营备案凭证"><span>第二类医疗器械经营备案凭证</span></a></li>
+                                    <li><a href="http://219.135.157.143/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1"
+                                                    target="_blank" title="第二类医疗器械经营备案凭证">粤穗食药监械经营备LG20150061号</a>
+                                    </li>
+                                    <li>
+                                            <a href="http://qy1.sfda.gov.cn/datasearch/face3/base.jsp?tableId=33&amp;tableName=TABLE33&amp;title=%BB%A5%C1%AA%CD%F8%D2%A9%C6%B7%BD%BB%D2%D7%B7%FE%CE%F1&amp;bcId=118715801943244717582221630944"
+                                                    target="_blank"
+                                                    title="互联网交易资格证"><span>互联网交易资格证：</span>粤C20130016</a></li>
+                                    <li><a href="http://219.135.157.143/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1"
+                                                    target="_blank"
+                                                    title="药品经营许可证"><span>药品经营许可证：</span>粤BA0200208</a></li>
+                                    <li><a href="http://219.135.157.143/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1"
+                                                    target="_blank"
+                                                    title="医疗器械经营许可证"><span>医疗器械经营许可证：</span>粤B2-20130688</a></li>
+                                    <li><a href="http://219.135.157.143/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1"
+                                                    target="_blank" title="医疗器械经营许可证">粤穗食药监械经营许20170856号</a></li>
+                            </ul>
+                    </div>
+            </div>
+            <div class="jkn_head_m_m">
+                    <div class="jkn_sear_boxdiv">
+                            <em></em>
+                            <input id="wd" class="jkn_sear_box ac_input" type="text" style="color:#666;"
+                                    maxlength="30" name="wd" value="金戈" autocomplete="off"
+                                    onkeypress="return checksearch(event)"
+                                    onfocus="this.style.color='#333';if(this.value =='金戈'){this.value=''}"
+                                    onblur="if(this.value==''){this.value='金戈';this.style.color='#666'}">
+                            <a href="javascript:void(0)" class="jkn_sear_btn"
+                                    onclick="SearchSubmit($('#wd').val(),event);" title="搜索">搜&nbsp;索</a>
+                            <p class="jkn_advanced_search"><a href="javascript:void(0)" title="综合搜索"
+                                            onclick="searchtotal()">综合<br>搜索</a></p>
+                    </div>
+                    <dl class="jkn_hot_labels clearfix">
+                            <dt>热门搜索：</dt>
+                            <dd><a href="https://search.jianke.com/prod?wd=%E5%B8%8C%E7%88%B1%E5%8A%9B"
+                                            target="_blank" title="希爱力">希爱力</a></dd>
+                            <dd><a href="https://www.jianke.com/product/856835.html" target="_blank"
+                                            title="韦立得">韦立得</a></dd>
+                            <dd><a href="https://www.jianke.com/product/11101.html" target="_blank"
+                                            title="艾丽">艾丽</a></dd>
+                            <dd><a href="https://search.jianke.com/prod?wd=%E5%BF%85%E5%88%A9%E5%8A%B2"
+                                            target="_blank" title="必利劲">必利劲</a></dd>
+                            <dd><a href="https://www.jianke.com/product/294345.html" target="_blank"
+                                            title="安宫牛黄丸">安宫牛黄丸</a></dd>
+                    </dl>
+            </div>
+
+            <ul class="jkn_head_m_r clearfix">
+                    <li class="my_order"><em></em><a id="otherorder" href="https://www.jianke.com/user/login"
+                                    target="_blank" title="我的订单">我的订单</a></li>
+                    <li class="logistics_query">
+                            <a class="cxdd" href="javascript:void(0)"><em></em>物流查询</a>
+                            <div class="jk_log_query">
+                                    <input id="txt_orderinfo" class="jk_log_ddh" type="text" value="请输入手机号或订单号">
+                                    <input class="jk_log_yzm" type="text" id="txt_yzm" value="验证码：">
+                                    <div id="div_yzm" class="jk_log_yz">
+                                            loding...
+                                    </div>
+                                    <input class="jk_log_btn" type="button"
+                                            onclick="return VerificationCodeCheck();" value="确定">
+                                    <a id="wlcx_close" href="javascript:void(0)"></a>
+                            </div>
+                    </li>
+            </ul>
+    </div>
+    <div id="main">
+        <div id="box">
+                <div class="bigimg">
+                    <img src="./images/1.jpg" alt="">
+                </div>
+                <div class="imgs">
+                    <img src="./images/1.jpg" alt="">
+                    <div class="zhuai"></div>
+                </div>
+                <div class="box3">
+                    
+                    <ul class="samllimg">
+                        <img src="./images/1.jpg" alt="">
+                        <img src="./images/2.jpg" alt="">
+                        <img src="./images/3.jpg" alt="">
+                        <img src="./images/4.jpg" alt="">
+                        <img src="./images/5.jpg" alt="">
+                    </ul>
+                </div>
+                <div class="lefts"></div>
+                <div class="rights"></div>
+        </div>
+        <div class="detail_box">
+            <p class="title">杜蕾斯螺纹装避孕套 更强烈的快感正确的使用</p>
+            <div class="price">价格:<span>￥44.90</span></div>
+            <div class="buy"><a href="">立即购买</a></div>
+            <div class="addCart"><a href="">加入购物车</a></div>
+        </div>
+        <script>
+        let str=decodeURI(window.location.search.slice(1));
+        // console.log(str)
+        function msg(querySting){
+            let o={};
+            let arr=querySting.split("&");
+            arr.forEach(function(ele){
+                let data=ele.split("=");
+                let key=data[0];
+                let value=data[1];
+                o[key]=value;
+            })
+            return o;
+        }
+        let data=msg(str);
+        let title=$(".detail_box .title")[0];
+        let price=$(".detail_box .price")[0];
+        let oImgA=$(".bigimg img")[0];
+        let oImgB=$(".imgs img")[0];
+        title.innerText = data.dis;
+        price.innerText = data.price;
+        oImgA.innerText = data.src;
+        oImgB.innerText = data.src;
+        </script>     
+        <div class="img">
+            <img src="../html/images/1.png" alt="">
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="jkn_ser">
+            <div class="jkn_service clearfix">
+                    <dl>
+                            <dt>关于健客</dt>
+                            <dd><a href="//www.jianke.com/help/about.html" target="_blank" title="健客简介">健客简介</a>
+                            </dd>
+                            <dd><a href="" target="_blank" title="资质荣誉" rel="nofollow">资质荣誉</a></dd>
+                            <dd><a href="http://hr.jianke.com" target="_blank" title="加入我们" rel="nofollow">加入我们</a>
+                            </dd>
+                            <dd><a href="//www.jianke.com/help/contact.html" target="_blank" title="联系我们"
+                                            rel="nofollow">联系我们</a></dd>
+                            <dd><a href="//www.jianke.com/help/gghz.html" target="_blank" title="广告合作"
+                                            rel="nofollow">广告合作</a></dd>
+                    </dl>
+                    <dl class="jknw108">
+                            <dt>支付配送方式</dt>
+                            <dd><a href="//www.jianke.com/help/cashpay.html" target="_blank" title="货到付款"
+                                            rel="nofollow">货到付款</a></dd>
+                            <dd><a href="//www.jianke.com/help/thirdpay.html" target="_blank" title="第三方网上支付"
+                                            rel="nofollow">第三方网上支付</a>
+                            </dd>
+                            <dd><a href="//www.jianke.com/help/delivery.html" target="_blank" title="配送范围和收费"
+                                            rel="nofollow">配送范围和收费</a>
+                            </dd>
+                            <dd><a href="//www.jianke.com/help/sign.html" target="_blank" title="商品签收注意"
+                                            rel="nofollow">商品签收注意</a></dd>
+                    </dl>
+                    <dl class="jkx_last">
+                            <dt>帮助中心</dt>
+                            <dd><a href="//www.jianke.com/help/ordway.html" target="_blank" title="购物指南"
+                                            rel="nofollow">购物指南</a></dd>
+                            <dd><a href="//www.jianke.com/help/cheorder.html" target="_blank" title="订单处理"
+                                            rel="nofollow">订单处理</a></dd>
+                            <dd><a href="//www.jianke.com/help/returnsx.html" target="_blank" title="退换原则"
+                                            rel="nofollow">退换原则</a></dd>
+                            <dd><a href="//www.jianke.com/help/returnlc.html" target="_blank" title="退换方式"
+                                            rel="nofollow">退换方式</a></dd>
+                            <dd><a href="//www.jianke.com/help/chephone.html" target="_blank" title="电话查真伪"
+                                            rel="nofollow">电话查真伪</a>
+                            </dd>
+                    </dl>
+                    <ul class="clearfix">
+                            <li class="jkx_last jknw205">
+                                    <p class="jkp_24xiaoshi">客服热线</p>
+                                    <!--<p class="jkp_dianhua"><i>咨询热线：</i>400-6989-999</p>-->
+                                    <p class="jkp_dianhua"><i>订购热线：</i>400-6666-800</p>
+                                    <!--<p class="jkp_dianhua"><i>跟单热线：</i>400-6480-111</p>-->
+                                    <p class="jkp_fuwuonline">服务时间：08:00-23:00</p>
+                                    <p class="jkp_dianhua"><i>退换货热线：</i>400-6169-357</p>
+                                    <p class="jkp_fuwuonline">服务时间：09:00-19:00</p>
+                                    <a href="javascript:void(0)" onclick="openkfWin(2)" class="jka_lianxi"
+                                            title="在线客服">在线客服</a>
+                            </li>
+                    </ul>
+            </div>
+    </div>
+    <div class="jkn_foot">
+            <p>健客－国家药监局认证的合法网上药店，致力于打造优质、低价、便捷的网上药店和最值得信赖的健康服务平台</p>
+            <p>版权所有 Copyright©2006-2017 www.jianke.com All rights reserved </p>
+            <p>
+                    <a href="//www.jianke.com/help/jiaoyi.html" target="_blank" title="互联网药品交易服务资格证书"
+                            rel="nofollow">互联网药品交易服务资格证书</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a href="//www.jianke.com/help/yingye.html" target="_blank" title="企业营业执照"
+                            rel="nofollow">企业营业执照</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a href="//www.jianke.com/help/xinxi.html" target="_blank" title="互联网药品信息服务资格证书"
+                            rel="nofollow">互联网药品信息服务资格证书</a>
+            </p>
+            <div class="jkn_foot_img">
+                    <a href="http://www.gddg110.gov.cn/" target="_blank" rel="nofollow">
+                            <em class="foot_safe"></em>
+                    </a>
+                    <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="nofollow">
+                            <em class="foot_copyright"></em>
+                    </a>
+                    <a href="http://www.12377.cn/" target="_blank" rel="nofollow"><em class="foot_report"></em></a>
+                    <div class="wljglogo">
+                            <a href="http://wljg.gdgs.gov.cn/corpsrch.aspx?key=%E5%B9%BF%E5%B7%9E%E4%BA%91%E5%8C%BB%E6%83%A0%E8%8D%AF%E5%8C%BB%E8%8D%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+                                    target="_blank">
+                                    <img src="//img.jianke.com/grey.gif" alt="工商红盾电子标识"
+                                            original="//img.jianke.com/jk2014/images/wljglogo.jpg">
+                            </a>
+                    </div>
+            </div>
+    </div>
+</body>
+<script src="./lib/fangdajing.js"></script>
+<script>
+    fangdajing({
+        ele: 'box',//最外层盒子的id(必填)
+        imglist: [data.src, "./images/2.jpg", "./images/3.jpg","./images/4.jpg","./images/5.jpg"],//图片数据(必填)
+        scal: 2,//大图放大倍数(选填,默认是2倍)
+        speed: 1,//小图运动的图片个数(选填,默认是一次动一张图)
+        Width: 80,//小图的宽度 宽度 + 左右边框 左右padding
+        BoPa: 8 //左右边框加左右padding的和
+    });
+
+</script>
+</html>

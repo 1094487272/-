@@ -1,0 +1,129 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+#main{
+  width: 100%;
+  height:100%;
+  margin-top:40px;
+}
+#main #box {
+  width: 440px;
+  height: 526px;
+  margin-left:350px;
+  position: relative;
+  float: left;
+  border: 1px solid #ccc;
+}
+#main .img{
+  width: 1500px;
+  margin-left:260px;
+  /* border:1px solid #000 */
+}
+#main .img img{
+  width:100%;
+  height:100%;
+}
+#main .detail_box{
+  border:1px solid #ccc;
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+#main .detail_box p{
+  margin-top:20px;
+  margin-bottom:10px;
+  width:100%;
+  height:100px;
+  font-size:20px;
+}
+#main .detail_box .price{
+  font-size: 16px;
+}
+#main .detail_box .buy{
+  text-align: center;
+  border:1px solid #ccc;
+  width:100px;
+  height:40px;
+  line-height:40px;
+  background:red;
+}
+#main .detail_box .buy a{color:#fff}
+#main .detail_box .addCart{
+  text-align: center;
+  border:1px solid #ccc;
+  width:100px;
+  height:40px;
+  line-height:40px;
+  background:blue;
+}
+#main .detail_box .addCart a{color:#fff}
+#box .bigimg {
+  width: 436px;
+  height: 436px;
+  border: 1px solid #ccc;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 442px;
+  z-index: 30;
+}
+
+#box .bigimg img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#box .imgs {
+  width: 432px;
+  height: 432px;
+  /* border: 1px solid #ccc; */
+  padding: 2px;
+}
+
+#box .imgs img {
+  width: 434px;
+  height: 434px;
+}
+
+#box .zhuai {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: rgba(202, 40, 40, 0.308);
+  display: none;
+}
+
+#box .box3 {
+  width: 100%;
+  height: 80px;
+ margin-top: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+#box .box3 .samllimg {
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1s;
+}
+
+#box .box3 .samllimg li {
+  width: 72px;
+  height: 72px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#box .box3 .samllimg li img {
+  border:none;
+  width: 68px;
+  height: 68px;
+}
