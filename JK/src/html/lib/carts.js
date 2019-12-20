@@ -7,6 +7,12 @@ $(() => {
     } else {
         $(".status").text("登录");
     }
+    $("#loginfo>a").text(showText);
+    if (localStorage.username) {
+        $(".status").text("注销");
+    } else {
+        $(".status").text("登录");
+    }
 
     $(".status").click(function() {
         if ($(this).text() == "注销") {
@@ -160,4 +166,9 @@ $(() => {
         $(".piece_num").text(total_count);
         $(".total_text").text("￥" + total_price.toFixed(2));
     };
+
+    //清空列表
+    $(".list_delall").click(function () {
+    $(".delBtn").trigger('click');
+    })
 })

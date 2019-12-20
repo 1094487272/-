@@ -35,5 +35,24 @@ $(() => {
         });
     })
     
+
+    // 显示登录
+    let showText = localStorage.username ? localStorage.username + ",欢迎你！" : "";
+    $("#loginfo>.userInfo").text(showText);
+    if (localStorage.username) {
+        $(".status").text("注销");
+    } else {
+        $(".status").text("请登录");
+    }
+
+    $(".status").click(function() {
+        if ($(this).text() == "注销") {
+            localStorage.removeItem("username");
+            localStorage.removeItem("id");
+            window.location.href = "http://127.0.0.1:8080/-/JK/src/shouye.html";
+        } else {
+            window.location.href = "http://127.0.0.1:8080/-/JK/src/html/login.html";
+        }
+    })
     
 })

@@ -72,7 +72,7 @@ $(()=>{
         /* 删除数据： */
         /* 更新数据： */
         $.ajax({
-            url: "http://127.0.0.1:8080/-/JK/src/api/cart.php",
+            url: "http://127.0.0.1:8080/-/JK/src/api/cart.php   ",
             data: { type: "add", good_id: good_id, id: localStorage.id },
             dataType: "json",
             success: function(response) {
@@ -101,4 +101,22 @@ $(()=>{
     /* 打开购物车页面 */
     $(".cart").click(() => window.location.href = "http://127.0.0.1:8080/-/JK/src/html/cart.html");
 
+    // 登录显示
+    let showText = localStorage.username ? localStorage.username + ",欢迎你！" : "";
+    $("#loginfo>.userInfo").text(showText);
+    if (localStorage.username) {
+        $(".status").text("注销");
+    } else {
+        $(".status").text("请登录");
+    }
+
+    $(".status").click(function() {
+        if ($(this).text() == "注销") {
+            localStorage.removeItem("username");
+            localStorage.removeItem("id");
+            window.location.href = "http://127.0.0.1:8080/-/JK/src/html/list.html";
+        } else {
+            window.location.href = "http://127.0.0.1:8080/-/JK/src/html/login.html";
+        }
+    })
 })
