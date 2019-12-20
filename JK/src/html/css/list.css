@@ -33,7 +33,7 @@
 .item {
     margin: 5px;
     width: 240px;
-    height: 350px;
+    height: 380px;
     border: 1px solid #efefef;
     float: left;
 }
@@ -75,4 +75,48 @@ button{
     margin-left: 15px;
     color: #923;
     font-size: 18px
+}
+.cart {
+    height: 160px;
+    width: 30px;
+    text-align: center;
+    /* color: #fff; */
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -50px;
+    background: #000;
+    /* border: 1px solid #000; */
+}
+
+.cart .cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.cart .cart_total {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.addCart {
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+    text-align: center
+}
+
+.addCart:hover {
+    border: 1px solid red;
+    color: red;
 }

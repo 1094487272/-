@@ -13,17 +13,17 @@ $(()=>{
             }
             $(".pagination").html(html);
             $(".pagination").on("click","li",function(){
-                getDataWithPageCount($(this).index()+1);
+                getDataWithPage($(this).index()+1);
             })
         }
     });
     /* 发送网络请求获取服务器商品数据 */
-    getDataWithPageCount(1);
-    function getDataWithPageCount(index){
+    getDataWithPage(1,0);
+    function getDataWithPage(page,type){
         $.ajax({
             type: "get",
             url: "../api/getGoodData.php",
-            data: "page=" + index,
+            data: `page=${page}&sortType=${type}`,
             dataType: "json",
             success: function (response) {
                 renderUI(response)
@@ -39,7 +39,8 @@ $(()=>{
                         <img src=${ele.img}>
                         <span class="price-y"><a href="">￥${ele.priceA}</a></span><span class="price-z"><a href="">￥${ele.priceB}</a></span>
                         <div class="dis">${ele.title}</div>
-                        <button>${ele.shoppingCart}</button>
+                        <div class="storeName ">${ele.shopName}</div>
+                        <div class="addCart">加入购物车</div>
                     </div>
                 </li>
             `
@@ -47,11 +48,57 @@ $(()=>{
 
         $(".box-list").html(html);
     }
-    $(".box-list").on("click",".item",function(){
-        let oImg=$(this).children(".item-box")[0].querySelector("img").src;
-        let price=$(this).children().children(".price-y").text();
-        let dis=$(this).children(".item-box").children(".dis").text();
+    $(".box-list").on("click",".item-box img",function(){
+        let oImg=$(this)[0].src;
+        let price=$(this).siblings(".price-y").text();
+        let dis=$(this).siblings(".dis").text();
         let querySting=`src=${oImg}&price=${price}&dis=${dis}`;
         window.location.href="http://127.0.0.1:8080/-/JK/src/html/Detail-Pages.html?" + querySting;
     })
+
+    /* 实现点击添加商品到购物车的功能 */
+    $(".box-list").on("click", ".addCart", function() {
+        /* 检查是否已经登录 ，如果没有登录那就跳转到登录页面*/
+        if (!localStorage.username) {
+            window.location.href = "http://127.0.0.1:8080/-/JK/src/html/login.html";
+        }
+
+        /* 获取当前商品的ID */
+        let good_id = $(this).parents("li").data().id;
+        console.log(good_id)
+        /* 发送网络请求把当前数据添加到购物车表中 */
+        /* 数据库表 cart_id  good_id  num isChecked */
+        /* 添加数据： */
+        /* 删除数据： */
+        /* 更新数据： */
+        $.ajax({
+            url: "http://127.0.0.1:8080/-/JK/src/api/cart.php",
+            data: { type: "add", good_id: good_id, id: localStorage.id },
+            dataType: "json",
+            success: function(response) {
+                if (response.status == "success") {
+                    $(".cart_total").text($(".cart_total").text() * 1 + 1);
+                }
+            }
+        });
+    })
+    /* 发请求获取购物车中商品的数量 */
+    /* 检查登录状态，如果已经登录那么就请求获取购物车的数量 */
+    if (localStorage.id) {
+        $.ajax({
+            url: "../api/getTotalCount.php",
+            data: {
+                id: localStorage.id
+            },
+            dataType: "json",
+            success: function({ total }) {
+                // console.log(total);
+                $(".cart_total").text(total);
+            }
+        });
+    }
+
+    /* 打开购物车页面 */
+    $(".cart").click(() => window.location.href = "http://127.0.0.1:8080/-/JK/src/html/cart.html");
+
 })
